@@ -1,4 +1,4 @@
-\class Solution {
+class Solution {
     public int maxScore(int[] cardPoints, int k) {
        int sum = 0;
        int result = Integer.MIN_VALUE;
