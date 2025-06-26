@@ -1,10 +1,11 @@
 public class Recusion_count_zeros {
 
     public static void main(String[] args) {
-        int answer =  calcZeroes(6060740);
+        int answer =  calcZeroes(23050);
         System.out.println(answer);
     }
     static int calcZeroes(int num){
+        if (num ==0) return 1;
         return countZeros( num, 0);
     }
     static int countZeros(int num , int count){
