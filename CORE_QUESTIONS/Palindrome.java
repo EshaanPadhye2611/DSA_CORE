@@ -7,7 +7,7 @@ public class Palindrome {
       static boolean isPalindrome( String s){
             return checkPalindrome(0,s.length()-1,s);
         }
-  static   boolean checkPalindrome(int left, int right, String s){
+  static  boolean checkPalindrome(int left, int right, String s){
             if(s.charAt(left) != s.charAt(right)){
                 return false;
             }else if(s.charAt(left) == s.charAt(right) && left ==  right){
